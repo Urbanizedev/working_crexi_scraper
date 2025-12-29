@@ -48,7 +48,10 @@ On first run it will log in, afterwards the cookies should save and logging in a
 
 6. **Merge the output files**
 
-Modify the `xlsx_dir` variable in `convert_xlsx_to_csv.py`
-to match the directory your output files are in.
+Modify the `xlsx_dir` variable in `convert_xlsx_to_csv.py` to match the directory your output files are in.
+
+Modify the `csv_dir` variable to name the destination folder for the newly converted CSVs .
+
+Modify `merged_csv_path` to change where you final merged result will save to.
 
 Then execute the script.

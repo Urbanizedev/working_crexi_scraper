@@ -22,9 +22,6 @@ for file in os.listdir(xlsx_dir):
         print(f"Converted: {file} → {csv_path}")
 
 # merge the CSVs
-
-# location folder of CSVs, change as needed
-csv_dir = os.path.join(xlsx_dir, "convertedCSV")
 # destination of merged CSV, change as needed
 merged_csv_path = os.path.join(xlsx_dir, "merged_results.csv")
 
